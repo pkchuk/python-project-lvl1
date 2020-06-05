@@ -3,18 +3,18 @@ language: python
 python: 
 
 
-	- 3.6
-	- 3.7
-	- 3.8
+    - 3.6
+    - 3.7
+    - 3.8
 
 
 before install:
-	- pip install poetry
+    - pip install poetry
 
 
 install:
-	- make install
+    - make install
 
 
 script:
-	- make check
+    - make check
