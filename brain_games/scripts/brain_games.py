@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Main programm."""
+"""Promt and ask user's name."""
 
 from brain_games import cli
 
 
 def main():
-    """Make a user intreface."""
-    print('Welcome to the Brain Games!\n')
+    """Prompt and ask user's name with cli function."""
     cli.welcome_user()
 
 
