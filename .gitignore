@@ -5,3 +5,4 @@ dist/
 .venv/
 log.txt
 .cache
+*.save
